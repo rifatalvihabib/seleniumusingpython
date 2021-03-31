@@ -23,3 +23,5 @@ driver.find_element_by_xpath("//*[@id='app']/main/div/div/div/div/div[2]/form/di
 #driver.find_element_by_css_selector("input[value=roundtrip]")
 #is_selected is to check radio buttons
 # name attribute same.so we are choosing the value
+
+print(driver.title) #title of the page
