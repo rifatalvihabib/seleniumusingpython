@@ -15,7 +15,7 @@ button.click()
 obj = driver.switch_to.alert
 
 #Retrieve the message on the Alert window
-msg = obj.text
+msg=obj.text
 print ("Alert shows following message: "+ msg )
 
 time.sleep(2)
